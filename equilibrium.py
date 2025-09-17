@@ -1,4 +1,4 @@
-def equilibrium_index(A,N):
+def equilibrium_index(A,N):    #T.c:O(N) S.c:O(1)
     total_sum=sum(A)
     left_sum=0
     for i in range(N):
